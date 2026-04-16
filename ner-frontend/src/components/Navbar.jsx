@@ -1,3 +1,4 @@
+//ner-frontend/src/components/Navbar.jsx
 import {
   AppBar,
   Toolbar,

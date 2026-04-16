@@ -1,3 +1,4 @@
+//ner-frontend/src/components/EntityChip.jsx
 import { Chip } from '@mui/material';
 
 const colors = {

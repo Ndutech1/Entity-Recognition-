@@ -1,3 +1,4 @@
+//ner-frontend/src/pages/ProcessArticle.jsx
 import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   Container,

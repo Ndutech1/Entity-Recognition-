@@ -1,3 +1,4 @@
+//ner-frontend/components/HighlightedText.jsx
 export default function HighlightedText({ text = '', entities = [] }) {
   if (!entities.length) {
     return text;
