@@ -1,6 +1,6 @@
 //backend/services/ner.service.js
 const { pipeline } = require('@xenova/transformers');
-const logger = require('../Utils/logger');
+const logger = require('../utils/logger');
 
 let nerPipeline;
 
