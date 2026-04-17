@@ -6,7 +6,7 @@ const morgan = require('morgan');
 
 const articleRoutes = require('./routes/article.routes');
 const errorHandler = require('./middlewares/errorHandler');
-const logger = require('./Utils/logger');
+const logger = require('./utils/logger');
 
 const app = express();
 
