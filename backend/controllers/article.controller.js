@@ -1,7 +1,7 @@
 //backend/controllers/article.controller.js
 const Article = require('../models/Article');
 const { extractEntities } = require('../services/ner.service');
-const logger = require('../Utils/logger');
+const logger = require('../utils/logger');
 
 const buildArticleEntityPayload = async ({ title = '', content }) => {
   const entities = await extractEntities(content);
