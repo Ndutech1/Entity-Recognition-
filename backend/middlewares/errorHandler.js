@@ -1,5 +1,5 @@
 //backend/middlewares/errorHandler.js
-const logger = require('../Utils/logger');
+const logger = require('../utils/logger');
 
 const errorHandler = (err, req, res, next) => {
   const statusFromError =
